@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  text-align: center;
+  font-family: "Contrail One", cursive;
+  background: url("./1.jpg");
+  background-size: cover;
+  color: #f7c40d;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 5px 0;
+}
+
+.heading {
+  font-family: "Tillana", cursive;
+  font-weight: 600;
+  margin: 2.5%;
+}
+.contents {
+  margin: 3% auto 1%;
+}
+.input {
+}
+.inputBar {
+  margin: auto auto 2%;
+  width: 60%;
+  font-size: 1.2rem;
+  border-radius: 7px;
+  border-color: rgb(237, 233, 31);
+  border: 2px solid transparent; /* Initial transparent border */
+  transition: border-color 0.3s; /* Add a border-color transition */
+  padding: 5px;
+}
+.inputBar:hover {
+  border-color: #f39c12; /* Change border color on hover */
+}
+.output {
+}
+.image {
+  width: 90%;
+  height: 35vh;
+  margin: 5%;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: width 0.3s, height 0.3s, margin 0.3s, border-radius 0.3s,
+    box-shadow 0.3s;
+}
+.image:hover {
+  width: 95%;
+  height: 40vh;
+  margin: 3%;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(230, 226, 126, 0.2);
+}
+.product {
+  width: 18%;
+}
